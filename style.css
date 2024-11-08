@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    margin: 0%;
+}
+
+#welcome {
+    background-image: linear-gradient(to right, red, orange, yellow, green);
+    bottom: 0%;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    background: salmon;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 9999;
+    position: fixed;
+}
+
+.lineal {
+    display: inline;
+    padding: 0 40px;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.lineal:hover {
+    font-size: 100px;
+}
+.lineal a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#contact {
+    width: 100%;
+}
